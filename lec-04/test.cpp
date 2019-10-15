@@ -9,15 +9,17 @@ using namespace std;
 
 //$./a.out
 int main(int argc, char* argv[]){
+//int main(){
 	// argc is the number of arguments passed to main
 	//argv is a list of arguments
+	cout<<"No. of parameters: "<<argc<<endl;
 	cout<<argv[0]<<endl;
+	
 	cout<<argv[1]<<endl; //if we have only one argument
 						 // argc ==1
 	                     // argv[1] is a "out of bound 
 					     //array access" and will cause 
 	                     // the program to crash
-	cout<<argv[2]<<endl;
-	
+	cout<<argv[2]<<endl;	
 	return 0;
 }
