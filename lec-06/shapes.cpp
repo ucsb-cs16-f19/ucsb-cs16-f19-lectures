@@ -1,7 +1,18 @@
+//shapes.cpp
+// Diba Mirza
+// Superman
+
 #include<iostream>
 #include <string>
 using namespace std;
 
+/* 
+Precondition: width should be positive odd number
+Postcondition: return a triangle with the given width
+*/
+string drawTriangle(int width){
+	return "*\n";
+}
 string drawSquare(int width){
 	string s = "";
 	for(int i = 0; i< 5; i++){
@@ -14,8 +25,5 @@ string drawSquare(int width){
 	}
 	return result;
 }
-int main(){
-	cout<<drawSquare(3);
-	return 0;
 
-}
+
