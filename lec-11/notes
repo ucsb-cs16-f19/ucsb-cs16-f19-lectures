@@ -1,0 +1,11 @@
+//notes
+
+Creating custon data types using structs
+
+- Represent more abstract concepts in code: point in 2D, student, 
+
+- Passing structs to function
+* by value
+* by reference 
+* by address
+
